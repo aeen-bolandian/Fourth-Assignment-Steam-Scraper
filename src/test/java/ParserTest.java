@@ -40,20 +40,20 @@ public class ParserTest {
         @Test
         public void testSortByPrice() {
             List<Game> sortedGames = handle.sortByPrice();
-            Game g1 = new Game("Persona 5 Royal" ,4.7,84);
-            Game g2 = new Game("Resident Evil Code: Veronica" ,4.6,85);
-            Game g3 = new Game("The Last of Us Part II" ,4.9,57);
-            Game g4 = new Game("God of War II" ,4.9,90);
-            Game g5 = new Game("Forza Motorsport" ,4.6,76);
-            Game g6 = new Game("Super Mario Sunshine" ,4.5,84);
+            Game g1 = new Game("Tekken 3" ,4.4,91);
+            Game g2 = new Game("Super Smash Bros. Melee" ,4.8,91);
+            Game g3 = new Game("Advance Wars" ,4.7,89);
+            Game g4 = new Game("Company of Heroes" ,4.7,87);
+            Game g5 = new Game("Uncharted 3: Drake's Deception" ,4.7,84);
+            Game g6 = new Game("Final Fantasy XII" ,4.7,76);
 
-//            assertEquals(250, sortedGames.size());
-//            assertEquals(sortedGames.get(18),g1);
-//            assertEquals(sortedGames.get(148),g2);
-//            assertEquals(sortedGames.get(74),g3);
-//            assertEquals(sortedGames.get(12),g4);
-//            assertEquals(sortedGames.get(66),g5);
-//            assertEquals(sortedGames.get(35),g6);
+            assertEquals(57, sortedGames.size());
+            assertEquals(sortedGames.get(6),g1);
+            assertEquals(sortedGames.get(12),g2);
+            assertEquals(sortedGames.get(26),g3);
+            assertEquals(sortedGames.get(38),g4);
+            assertEquals(sortedGames.get(44),g5);
+            assertEquals(sortedGames.get(52),g6);
         }
 
     @Test
