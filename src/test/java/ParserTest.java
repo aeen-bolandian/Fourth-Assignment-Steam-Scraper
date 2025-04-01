@@ -27,7 +27,6 @@ public class ParserTest {
         Game g5 = new Game("The Last of Us" ,4.9,92);
         Game g6 = new Game("Wipeout XL" ,4.3,86);
 
-        //Todo
         assertEquals(57, sortedGames.size());
         assertEquals(sortedGames.get(2),g1);
         assertEquals(sortedGames.get(13),g2);
