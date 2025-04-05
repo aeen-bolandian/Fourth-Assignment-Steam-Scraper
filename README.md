@@ -1,8 +1,8 @@
-# Fourth Assignment: HTML Parser 🌐
+# Fourth Assignment: Steam Scraper 🎮
 
 ## Introduction 
 
-This project delves into the practical application of HTML parsing techniques using Java and the JSoup library. The objective is to extract and manipulate data from a structured HTML document containing information about various countries. Key tasks include parsing the document, creating Java objects to represent the data, sorting the information based on different criteria, and presenting the results effectively.
+This project delves into the practical application of HTML parsing techniques using Java and the JSoup library. The objective is to extract and manipulate data from a structured HTML document containing information about various video-games. Key tasks include parsing the document, creating Java objects to represent the data, sorting the information based on different criteria, and presenting the results effectively.
 
 ## Why Learn Web Scraping? 📊
 
@@ -35,12 +35,12 @@ By having a solid grasp of these tools and concepts, you'll be well-equipped to 
 
 The primary objectives of this assignment are:
 
-- Parsing an HTML file with country data.
-- Extracting relevant information such as population, area, and other country attributes.
-- Implementing Java classes to represent countries.
+- Parsing an HTML file with video-game data.
+- Extracting relevant information such as price, rating, and other game attributes.
+- Implementing Java classes to represent games.
 - Utilizing JSoup for HTML parsing.
-- Applying sorting algorithms for organizing data by population, area, and country name.
-- Displaying the sorted country information effectively.
+- Applying sorting algorithms for organizing data by price, rating, and game name.
+- Displaying the sorted game information effectively.
 
 ## Tasks 📝
 
@@ -68,31 +68,31 @@ The primary objectives of this assignment are:
 
 3. **Define the Country Class:**
 
-    - Create a `Country` class in Java to encapsulate country-specific data.
+    - Create a `Game` class in Java to encapsulate country-specific data.
 
 5. **HTML Parsing using JSoup:**
 
-   Utilize JSoup to parse the HTML file located in the Resources folder at this path: `Fourth-Assignment-HTML-Parser\src\Resources` and extract relevant information such as:
+   Utilize JSoup to parse the HTML file located in the Resources folder at this path: `Fourth-Assignment-Steam-Scraper\src\Resources` and extract relevant information such as:
 
-    - `<span class="country-capital">` = for country names
-    - `<span class="country-population">` = for country populations
-    - `<span class="country-area">` = for country areas
+    - `<span class="game-name">` = for game names
+    - `<span class="game-rating">` = for game ratings
+    - `<span class="game-price">` = for game prices
 
    **Note: The span tags are nested within other tags and div closures.**
 
 6. **Implement Sorting Functionality:**
 
-    - Develop sorting algorithms for various criteria like population, area, and name.
+    - Develop sorting algorithms for various criteria like rating, price, and name.
 
 8. **Visualize Results:**
 
-    - Clearly present the sorted country data.
+    - Clearly present the sorted game data.
 
 ## Bonus Objectives (For Advanced Users) 🌟
 
 To enhance your project further:
 
-- Expand data extraction to additional websites, such as [Hockey Teams](https://www.scrapethissite.com/pages/forms/).
+- Expand data extraction to additional websites, such as [website](link).
 - Develop a user interface for interactive querying and sorting.
 - Utilize SQL or NoSQL databases to store the scraped data.
 
@@ -100,7 +100,7 @@ To enhance your project further:
 
 Here are some important points to keep in mind:
 
-- there is a `Help` folder located at the root directory of the project which contains the sorted countries each by different priorities it is there just so you can see what you r output should look like in the end.
+- there is a `Help` folder located at the root directory of the project which contains the sorted games each by different priorities. It is there just so you can see what your output should look like in the end.
 - The unit tests are provided to assist you in understanding the project requirements. Your final grade is not solely dependent on their results; they are meant to aid your learning process. Remember to enable GitHub Actions for the test workflow to run on GitHub.
 - Feel free to leverage ChatGPT for learning web scraping and resolving any challenges that you may not find solutions to on the internet. Utilize its capabilities to enhance your understanding and overcome obstacles effectively.
 **but It is strictly prohibited to use ChatGPT or any other AI generative model for completing any section of this assignment. Failure to comply will result in a score of 0 without any warnings.**
@@ -124,7 +124,7 @@ To share your work:
 4. Push your code to the remote repository.
 5. Submit a pull request to merge the `develop` branch with `main`.
 
-The deadline for submitting your code is **Wednesday, April 24** (5th of Ordibehesht).
+The deadline for submitting your code is **Wednesday, April 23** (3th of Ordibehesht).
 
 If you have any further questions or need clarification, do not hesitate to reach out to your mentor. Good luck with your project! 🌟
 
