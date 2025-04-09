@@ -92,7 +92,7 @@ The primary objectives of this assignment are:
 
 To enhance your project further:
 
-- Expand data extraction to additional websites, such as [website](link).
+- Expand data extraction to additional websites, such as [Oscar Winning Films](https://www.scrapethissite.com/pages/ajax-javascript/).
 - Develop a user interface for interactive querying and sorting.
 - Utilize SQL or NoSQL databases to store the scraped data.
 
