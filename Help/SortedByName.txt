@@ -1,57 +1,100 @@
 1. Game: Advance Wars, Rating: 4.7, Price: 89
 2. Game: Baldur's Gate II: Shadows of Amn, Rating: 4.9, Price: 91
-3. Game: Bloodborne, Rating: 4.8, Price: 88
-4. Game: Company of Heroes, Rating: 4.7, Price: 87
-5. Game: Diablo, Rating: 4.8, Price: 87
-6. Game: Divinity: Original Sin II, Rating: 4.7, Price: 88
-7. Game: Eternal Darkness: Sanity's Requiem, Rating: 4.6, Price: 87
-8. Game: Final Fantasy XII, Rating: 4.7, Price: 76
-9. Game: Flipnote Studio, Rating: 4.2, Price: 75
-10. Game: Forza Motorsport, Rating: 4.6, Price: 76
-11. Game: Forza Motorsport 3, Rating: 4.7, Price: 81
-12. Game: God of War II, Rating: 4.9, Price: 90
-13. Game: God of War III, Rating: 4.9, Price: 88
-14. Game: Gran Turismo 2, Rating: 4.6, Price: 90
-15. Game: Gran Turismo 3: A-Spec, Rating: 4.5, Price: 84
-16. Game: Half-Life: Alyx, Rating: 4.8, Price: 92
-17. Game: Halo: Combat Evolved, Rating: 4.6, Price: 87
-18. Game: Metal Gear Solid 2: Sons of Liberty, Rating: 4.7, Price: 88
-19. Game: Metal Gear Solid 3: Subsistence, Rating: 4.7, Price: 91
-20. Game: Metal Gear Solid 4: Guns of the Patriots, Rating: 4.5, Price: 88
-21. Game: Metroid Prime, Rating: 4.5, Price: 89
-22. Game: NHL 2002, Rating: 4.0, Price: 83
-23. Game: Paper Mario, Rating: 4.5, Price: 90
-24. Game: Persona 5 Royal, Rating: 4.7, Price: 84
-25. Game: Resident Evil Code: Veronica, Rating: 4.6, Price: 85
-26. Game: Rome: Total War, Rating: 4.9, Price: 90
-27. Game: Sid Meier's Civilization IV, Rating: 4.3, Price: 82
-28. Game: Sid Meier's Gettysburg!, Rating: 4.4, Price: 74
-29. Game: Super Mario 3D World, Rating: 4.7, Price: 89
-30. Game: Super Mario 64, Rating: 4.9, Price: 91
-31. Game: Super Mario Galaxy, Rating: 4.6, Price: 91
-32. Game: Super Mario Galaxy 2, Rating: 4.7, Price: 91
-33. Game: Super Mario Odyssey, Rating: 4.9, Price: 89
-34. Game: Super Mario Sunshine, Rating: 4.5, Price: 84
-35. Game: Super Mario World: Super Mario Advance 2, Rating: 4.6, Price: 90
-36. Game: Super Smash Bros. Brawl, Rating: 4.6, Price: 88
-37. Game: Super Smash Bros. Melee, Rating: 4.8, Price: 91
-38. Game: System Shock 2, Rating: 4.6, Price: 91
-39. Game: Team Fortress 2, Rating: 4.8, Price: 90
-40. Game: Tekken 3, Rating: 4.4, Price: 91
-41. Game: The House in Fata Morgana, Rating: 4.3, Price: 83
-42. Game: The Last of Us, Rating: 4.9, Price: 92
-43. Game: The Last of Us Part II, Rating: 4.9, Price: 57
-44. Game: The Legend of Zelda Collector's Edition, Rating: 4.7, Price: 89
-45. Game: The Legend of Zelda: A Link to the Past, Rating: 4.8, Price: 90
-46. Game: The Legend of Zelda: Majora's Mask, Rating: 4.6, Price: 91
-47. Game: The Legend of Zelda: Ocarina of Time, Rating: 4.8, Price: 91
-48. Game: The Legend of Zelda: The Wind Waker, Rating: 4.8, Price: 90
-49. Game: Tony Hawk's Pro Skater, Rating: 4.8, Price: 88
-50. Game: Uncharted 2: Among Thieves, Rating: 4.7, Price: 88
-51. Game: Uncharted 3: Drake's Deception, Rating: 4.7, Price: 84
-52. Game: Unreal Tournament 2004, Rating: 4.6, Price: 88
-53. Game: Vagrant Story, Rating: 4.5, Price: 90
-54. Game: Virtua Fighter 4, Rating: 4.4, Price: 81
-55. Game: Warcraft III: Reign of Chaos, Rating: 4.9, Price: 92
-56. Game: Wipeout XL, Rating: 4.3, Price: 86
-57. Game: World of Warcraft, Rating: 4.8, Price: 74
+3. Game: Blast Corps, Rating: 3.7, Price: 83
+4. Game: Bloodborne, Rating: 4.8, Price: 88
+5. Game: CS student simulator, Rating: 1.0, Price: 85
+6. Game: Call of Duty: Advanced Warfare - Ascendance, Rating: 4.0, Price: 67
+7. Game: Call of Duty: Advanced Warfare - Reckoning, Rating: 3.5, Price: 57
+8. Game: Call of Duty: Advanced Warfare - Supremacy, Rating: 4.4, Price: 64
+9. Game: Call of Duty: Black Ops II, Rating: 3.8, Price: 50
+10. Game: Call of Duty: Black Ops III, Rating: 3.7, Price: 50
+11. Game: Call of Duty: Infinite Warfare - Sabotage, Rating: 4.3, Price: 18
+12. Game: Call of Duty: Modern Warfare Remastered, Rating: 3.9, Price: 71
+13. Game: Company of Heroes, Rating: 4.7, Price: 87
+14. Game: Counter-Strike: Source, Rating: 4.4, Price: 89
+15. Game: Dead Space 2, Rating: 4.4, Price: 86
+16. Game: Devil May Cry 5, Rating: 4.7, Price: 91
+17. Game: Diablo, Rating: 4.8, Price: 87
+18. Game: Dishonored 2, Rating: 4.3, Price: 80
+19. Game: Divinity: Original Sin Enhanced Edition, Rating: 4.6, Price: 80
+20. Game: Divinity: Original Sin II, Rating: 4.7, Price: 88
+21. Game: Doom 3, Rating: 4.1, Price: 81
+22. Game: Eternal Darkness: Sanity's Requiem, Rating: 4.6, Price: 87
+23. Game: Far Cry 3, Rating: 4.9, Price: 80
+24. Game: Far Cry 4, Rating: 4.8, Price: 91
+25. Game: Final Fantasy XII, Rating: 4.7, Price: 76
+26. Game: Flipnote Studio, Rating: 4.2, Price: 75
+27. Game: Forza Motorsport, Rating: 4.6, Price: 76
+28. Game: Forza Motorsport 3, Rating: 4.7, Price: 81
+29. Game: Geometry Wars: Retro Evolved 2, Rating: 3.8, Price: 83
+30. Game: God of War II, Rating: 4.9, Price: 90
+31. Game: God of War III, Rating: 4.9, Price: 88
+32. Game: Gran Turismo 2, Rating: 4.6, Price: 90
+33. Game: Gran Turismo 3: A-Spec, Rating: 4.5, Price: 84
+34. Game: Grand Theft Auto V, Rating: 3.6, Price: 36
+35. Game: Guacamelee! Gold Edition, Rating: 4.3, Price: 75
+36. Game: Half-Life 2: Episode Two, Rating: 4.2, Price: 92
+37. Game: Half-Life: Alyx, Rating: 4.8, Price: 92
+38. Game: Halo: Combat Evolved, Rating: 4.6, Price: 87
+39. Game: Hollow Knight, Rating: 4.3, Price: 90
+40. Game: Injustice 2: Legendary Edition, Rating: 4.0, Price: 77
+41. Game: JSRF: Jet Set Radio Future, Rating: 4.1, Price: 83
+42. Game: Mario Kart 8 DLC Pack 2, Rating: 3.9, Price: 89
+43. Game: Metal Gear Solid 2: Sons of Liberty, Rating: 4.7, Price: 88
+44. Game: Metal Gear Solid 3: Subsistence, Rating: 4.7, Price: 91
+45. Game: Metal Gear Solid 4: Guns of the Patriots, Rating: 4.5, Price: 88
+46. Game: Metroid Prime, Rating: 4.5, Price: 89
+47. Game: Minecraft: Xbox One Edition, Rating: 4.4, Price: 73
+48. Game: NFL 2K2, Rating: 3.6, Price: 71
+49. Game: NHL 2002, Rating: 4.0, Price: 83
+50. Game: Paper Mario, Rating: 4.5, Price: 90
+51. Game: Persona 5 Royal, Rating: 4.7, Price: 84
+52. Game: Pikmin 2, Rating: 4.0, Price: 90
+53. Game: Portal: Still Alive, Rating: 3.9, Price: 86
+54. Game: Project Gotham Racing 3, Rating: 4.2, Price: 79
+55. Game: Red Faction, Rating: 3.9, Price: 79
+56. Game: Resident Evil (2002), Rating: 4.2, Price: 92
+57. Game: Resident Evil 4: Wii Edition, Rating: 3.9, Price: 89
+58. Game: Resident Evil Code: Veronica, Rating: 4.6, Price: 85
+59. Game: Rome: Total War, Rating: 4.9, Price: 90
+60. Game: Shin Megami Tensei: Persona 4, Rating: 4.1, Price: 77
+61. Game: Sid Meier's Civilization III, Rating: 4.0, Price: 84
+62. Game: Sid Meier's Civilization IV, Rating: 4.3, Price: 82
+63. Game: Sid Meier's Civilization V, Rating: 4.3, Price: 80
+64. Game: Sid Meier's Gettysburg!, Rating: 4.4, Price: 74
+65. Game: Silent Hunter III, Rating: 3.9, Price: 78
+66. Game: Slay the Spire, Rating: 3.5, Price: 69
+67. Game: Super Mario 3D Land, Rating: 4.1, Price: 84
+68. Game: Super Mario 3D World, Rating: 4.7, Price: 89
+69. Game: Super Mario Galaxy, Rating: 4.6, Price: 91
+70. Game: Super Mario Odyssey, Rating: 4.9, Price: 89
+71. Game: Super Mario Sunshine, Rating: 4.5, Price: 84
+72. Game: Super Mario World: Super Mario Advance 2, Rating: 4.6, Price: 90
+73. Game: Super Smash Bros. Melee, Rating: 4.8, Price: 91
+74. Game: System Shock 2, Rating: 4.6, Price: 91
+75. Game: Team Fortress 2, Rating: 4.8, Price: 90
+76. Game: Tekken 3, Rating: 4.4, Price: 91
+77. Game: Tekken: Dark Resurrection, Rating: 3.8, Price: 86
+78. Game: The Chronicles of Riddick: Escape From Butcher Bay - Developer's Cut, Rating: 3.8, Price: 86
+79. Game: The House in Fata Morgana, Rating: 4.3, Price: 83
+80. Game: The Last of Us, Rating: 4.9, Price: 92
+81. Game: The Last of Us Part II, Rating: 4.9, Price: 57
+82. Game: The Legend of Zelda Collector's Edition, Rating: 4.7, Price: 89
+83. Game: The Legend of Zelda: A Link to the Past, Rating: 4.8, Price: 90
+84. Game: The Legend of Zelda: Majora's Mask, Rating: 4.6, Price: 91
+85. Game: The Legend of Zelda: The Wind Waker, Rating: 4.8, Price: 90
+86. Game: The Stanley Parable, Rating: 4.0, Price: 80
+87. Game: The World Ends with You, Rating: 4.5, Price: 87
+88. Game: Titanfall, Rating: 4.2, Price: 61
+89. Game: Tom Clancy's Rainbow Six Siege, Rating: 4.6, Price: 88
+90. Game: Tony Hawk's Pro Skater, Rating: 4.8, Price: 88
+91. Game: Uncharted 2: Among Thieves, Rating: 4.7, Price: 88
+92. Game: Uncharted 3: Drake's Deception, Rating: 4.7, Price: 84
+93. Game: Unreal Tournament 2004, Rating: 4.6, Price: 88
+94. Game: Vagrant Story, Rating: 4.5, Price: 90
+95. Game: Virtua Fighter 4, Rating: 4.4, Price: 81
+96. Game: WWF SmackDown! 2: Know Your Role, Rating: 4.2, Price: 84
+97. Game: Warcraft III: Reign of Chaos, Rating: 4.9, Price: 92
+98. Game: Watch Dogs 2, Rating: 4.1, Price: 81
+99. Game: Wipeout XL, Rating: 4.3, Price: 86
+100. Game: World of Warcraft, Rating: 4.8, Price: 74
