@@ -11,21 +11,27 @@ import javax.print.Doc;
 public class Parser {
     static List<Game> games = new ArrayList<>();
 
-    public void sortByName(){
+    public List<Game>  sortByName(){
 
         games.sort(Comparator.comparing(Game::getName));
+        List<Game> listedGames = Parser.games;
+        return listedGames;
 
     }
 
-    public void sortByRating(){
+    public List<Game> sortByRating(){
 
         games.sort((game1 , game2) -> Double.compare(game2.getRating(), game1.getRating()));
+        List<Game> listedGames = Parser.games;
+        return listedGames;
 
     }
 
-    public void sortByPrice(){
+    public List<Game> sortByPrice(){
 
         games.sort((game1 , game2) -> Integer.compare(game2.getPrice(), game1.getPrice()));
+        List<Game> listedGames = Parser.games;
+        return listedGames;
 
     }
 
