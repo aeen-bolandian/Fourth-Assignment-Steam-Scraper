@@ -1,9 +1,9 @@
 import java.util.Objects;
 
 public class Game {
-    private String name;
-    private double rating;
-    private int price;
+    private final String name;
+    private final double rating;
+    private final int price;
 
     public Game(String name, double rating, int price) {
         this.name = name;
@@ -29,12 +29,6 @@ public class Game {
         return "name : " + getName() + "\nprice : " + getPrice() + "\nrating : " + getRating();
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Game game = (Game) o;
-        return Double.compare(game.rating, rating) == 0 && Double.compare(game.price, price) == 0 && Objects.equals(name, game.name);
-    }
+
 
 }

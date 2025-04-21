@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-21T12:30:13" hostname="AEEN-IDEAPAD-GA" time="0.035">
+<testsuite name="ParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-21T12:52:18" hostname="AEEN-IDEAPAD-GA" time="0.031">
   <properties/>
-  <testcase name="testSortByName()" classname="ParserTest" time="0.035"/>
+  <testcase name="testSortByName()" classname="ParserTest" time="0.031"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
