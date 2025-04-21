@@ -1,8 +1,10 @@
+import com.google.gson.Gson;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
@@ -52,8 +54,42 @@ public class Parser {
         }
     }
 
+    public static void saveToJson(List<Game> games , String path) throws IOException {
+        Gson gson = new Gson();
+        try (FileWriter fileWriter = new FileWriter(path)) {
+            gson.toJson(games, fileWriter);
+        }
+    }
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         //you can test your code here before you run the unit tests
+        Scanner scanner = new Scanner(System.in);
+        Parser parser = new Parser();
+        parser.setUp();
+        System.out.println("sort method :");
+        System.out.println("1.name\n2.rating\n3.price");
+        while(true){
+            int choice = scanner.nextInt();
+            if(choice == 0) { break;}
+            if(choice == 1){
+                parser.sortByName();
+                break;
+            }
+            else if(choice == 2){
+                parser.sortByRating();
+                break;
+            }
+            else if(choice == 3){
+                parser.sortByPrice();
+                break;
+            }
+            else
+                System.out.println("invalid choice");
+        }
+        for(Game game : games) {
+            System.out.println(game.toString());
+        }
+        saveToJson(games , "D:\\AP\\Fourth-Assignment-Steam-Scraper\\src\\Resources\\games.json");
     }
 }
