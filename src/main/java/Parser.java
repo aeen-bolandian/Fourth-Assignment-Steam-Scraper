@@ -6,40 +6,45 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
+import javax.print.Doc;
+
 public class Parser {
     static List<Game> games = new ArrayList<>();
 
-    public List<Game> sortByName(){
-        List<Game> sortedByName = new ArrayList<>(games);
-        // Sort games alphabetically (least)
-        //TODO
-        return  sortedByName;
+    public void sortByName(){
+
+        games.sort(Comparator.comparing(Game::getName));
+
     }
 
-    public List<Game> sortByRating(){
-        List<Game> sortedByRating = new ArrayList<>(games);
-        // Sort games by rating (most)
-        //TODO
-        return sortedByRating;
+    public void sortByRating(){
+
+        games.sort((game1 , game2) -> Double.compare(game2.getRating(), game1.getRating()));
+
     }
 
-    public List<Game> sortByPrice(){
-        List<Game> sortedByPrice = new ArrayList<>(games);
-        // Sort games by price (most)
-        //TODO
-        return sortedByPrice;
+    public void sortByPrice(){
+
+        games.sort((game1 , game2) -> Integer.compare(game2.getPrice(), game1.getPrice()));
+
     }
 
     public void setUp() throws IOException {
 
-        //Parse the HTML file using Jsoup
-        //TODO
+        File input = new File("D:\\AP\\Fourth-Assignment-Steam-Scraper\\src\\Resources");
 
-        // Extract data from the HTML
-        //TODO
+        Document doc = Jsoup.parse(input , "UTF-8");
 
-        // Iterate through each Game div to extract Game data
-        //TODO
+        Elements games = doc.select("div.game");
+
+        for(Element game : games) {
+            String name = game.selectFirst(".game-name").text();
+            String price = game.selectFirst(".game-price").text();
+            String rating = game.selectFirst(".game-rating").text();
+
+            Parser.games.add(new Game(name , Double.parseDouble(rating) , Integer.parseInt(price)));
+
+        }
     }
 
     public static void main(String[] args) {
