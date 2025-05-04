@@ -29,6 +29,15 @@ public class Game {
         return "name : " + getName() + "\nprice : " + getPrice() + "\nrating : " + getRating();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Game game = (Game) o;
+        return Double.compare(game.rating, rating) == 0 &&
+                price == game.price &&
+                Objects.equals(name, game.name);
+    }
 
 
 }
